@@ -1,0 +1,49 @@
+/* body { 
+    font-family: "Roboto Mono", monospace;
+    color: #0a0a23;
+    font-size: 18px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 5vw;
+  }
+*/
+
+/* Reset default margin and padding for the body */
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #0a0a23;
+    margin: 5vw;
+    padding: 1em;
+    line-height: 1.4;
+}
+
+/* Center the image container horizontally */
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Add spacing between the images and captions */
+figure {
+    margin: 0 20px; /* Adjust the margin as needed for spacing */
+    text-align: center;
+}
+
+/* Style the images (adjust width and height as needed) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the captions */
+figcaption {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+footer {
+    font-size: 0.75em;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px; 
+  }
